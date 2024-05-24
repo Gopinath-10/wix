@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>radio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  </head>
+<style>
+  div {
+    display: block;
+}
+    .topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: rgb(66, 66, 64);
+  text-align: center;
+  padding: 14px 16px;
+ 
+} 
+.ki:hover, a.ki:active {font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p:hover{
+  font-size: 110%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.p{
+  border-left: 3px solid rgb(135, 161, 190);
+}
+.o{
+ 
+  border-left: 3px solid rgb(135, 161, 190);
+}
+.gopi{
+  text-decoration: black;
+}
+.button{
+  background-color: rgb(72, 72, 228);
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 14px;
+  width: 100px;
+}
+.der {
+  background-color: rgb(55, 55, 172);
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-size: 90px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0%;
+ 
+}
+.site{
+  font-size: 20px;
+}
+.gt{
+  font-size: 20px;
+}
+.button1{
+  background-color: rgb(235, 242, 243);
+  color: rgb(17, 10, 10);
+  padding: 15px;
+  width: 200px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-bottom: 10PX;
+}
+.mes{
+  font-size: 12px;
+ padding: 15px 0px 100px;
+}
+
+.newspaper {
+  column-count: 2;
+}
+.card {
+  width: 50%;
+  font-size: 10px;
+  padding-right: 3px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  box-shadow: 0 4px px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  text-align: center;
+  background-color: pink;
+  margin: 10rem;
+}
+.cen{
+  padding-left: 100px;
+}
+.hes{
+  background-color: azure;
+  color: black;
+  padding-top: 110px;
+  font-size: 70px;
+  font-weight: 10px;
+  padding-right: 400px;
+  font-family: 'Times New Roman', Times, serif;
+}
+.ed{
+  padding-right: 550px;
+  color: black;
+  font-weight: 50;
+}
+.e{
+  padding-right: 350px;
+  color: black;
+}
+.paper{
+  column-count: 3;
+  column-gap: 40px;
+  background-color: azure;
+  color: black;
+  font-size: 25px;
+  padding-top: 30px;
+  text-decoration: overline;
+}
+.news{
+  column-count: 3;
+  column-gap: 40px;
+  background-color: azure;
+  color: black;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-left: 60px;
+  padding-top: 10px;
+}
+.faf{
+  padding-right: 990px;
+  background-color: azure;
+  color: black;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+.ta{
+  background-color: azure;
+  padding-top: 130px;
+  padding-bottom: 100px;
+}
+.button2{
+  background-color: rgb(10, 13, 14);
+  color: rgb(243, 237, 237);
+  padding: 15px;
+  width: 300px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-bottom: 15PX;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.button2:hover{
+  background-color: rgb(80, 80, 160);
+}
+.was{
+  background-color: black;
+}
+.gm{
+  padding-top: 80px;
+  font-size: 65px;
+  font-weight: 1%;
+}
+.rs{
+  font-size: 23px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.button3{
+  background-color: rgb(234, 243, 243);
+  color: rgb(15, 10, 10);
+  padding: 15px;
+  width: 300px;
+  font-size: 22px;
+  cursor: pointer;
+  border-radius: 30px;
+  padding-bottom: 15PX;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.ri{
+  padding-bottom: 100px;
+}
+.button3:hover{
+  opacity: 0.9;
+}
+.wrapper{
+  max-height: 500px;
+  display: flex;
+  overflow-x: auto;
+  column-gap: 40px;
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 30px;
+  color: azure;
+  padding-bottom: 1px;
+}
+.wrapper.item{
+  min-width: 500px;
+  height: 500px;
+  line-height: 500px;
+  padding-top: 10px;
+}
+.wrapper a{
+  font-size: 20px;
+  padding-right: 500px;
+  padding-bottom: px;
+  color: blanchedalmond;
+  padding-top: 50px;
+}
+.input{
+  padding-top: 1px;
+}
+</style>
+<body>
+    <div class="topnav">
+        <div class="gopi"><h1><a>Wix</a></h1></div>
+        <a class="ki">Product</a>
+        <a class="ki">Solutions</a>
+        <a class="ki">Resources</a>
+       <a class="ki">Pricing</a>
+       <div class="ki"><a class="p">Wix studio</a></div>
+       <a class="ki">Enterprise</a>
+       <div class="button"style="float: right;><button class="button"><b>Get Started</b></button></div>
+       <div class="o" style="float: right;"><a  href="ht" >log in</a></div>
+       <a href="#" style="float:right"><i class="fa-solid fa-globe"></i></a> 
+    </div>
+      <div class="der">
+        Create a website<br>without limits <br>
+        <a class="site">Build and scale with confidence. From a powerful website builder </a>
+        <div class="gt">to advanced business solutions—weve got you covered.  
+      </div>
+   <a class="button1">Get Started </a>
+  <div class="mes">Start for free. No credit card required.
+  </div>
+  <div class="newspaper">
+   <div class="cen">
+     <img src="https://static.wixstatic.com/media/a261d7_078457c282af4a99b97e04d4291b646e~mv2.jpg/v1/fill/w_728,h_455,al_c,q_80,enc_auto/cans-reduced.jpg;">
+  </div>
+  <div class="card">
+    <img src="https://static.wixstatic.com/media/a261d7_85d7e7606ea2477b8472740d0ca1e33b~mv2.jpg/v1/fill/w_158,h_178,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/bottle.jpg" alt="Denim Jeans" style="width:101.5%">
+    <h1>Tailored Jeans</h1>
+  
+    <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
+ </div>
+  </div>
+<section class="ta">
+   <span class="ed">One platform,</span><br>
+    <span class="e">infinite possibilities</span>
+    <div class="paper">
+      <span > <b>Unlimited creation </span><div>Powerful infrastructure</div><div>The place for growth</b></div>
+      </div>
+      <div class="news" >
+        Create website with  complete suite of advanced functionalities and bring your vision and to life. Get an enterprise-grade foundation, engineered for your limitless scalability and peace of mind. Convert and scale seamlessly with built-in marketing and business solutions.
+        </div>
+       <span class="faf"><a class="button2">Get Started </a></span>
+      </section>
+      <section class="was">
+       <div class="gm"> Website templates that set<br>
+        you up for success</div>
+        <span class="rs"><h5>Get a headstart on your journey with 900+ free, customizable website templates,<br> strategically researched and tailored for every industry — or start from a blank canvas on our website builder.</h5></span>
+        <span class="ri"><a class="button3">Get Started </a></span>
+        <div class="wrapper">
+        <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/73e9519384c0f853ccf8a00001d88300650ff62fab8c1a369e811175746f664d1702801947831.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/73e9519384c0f853ccf8a00001d88300650ff62fab8c1a369e811175746f664d1702801947831.webp"><div class="input"><a href="">Style</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/abefc5ede2c704804aff9eed78d37d100d75ee767f8194a7666ddddee1447f7e1628692719094.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/abefc5ede2c704804aff9eed78d37d100d75ee767f8194a7666ddddee1447f7e1628692719094.webp"><div class="input"><a href="">Travel</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/70c8f74b2f5f462124528f167c2dc4c08f0cca46f24ef189b5a493668b5ce5811675844788161.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/70c8f74b2f5f462124528f167c2dc4c08f0cca46f24ef189b5a493668b5ce5811675844788161.webp"><div class="input"><a href="">Living</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/c3ce58838ac7ff48abf576085b498720833f40fc86b9de833bad78e6761df4a51628686168259.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/c3ce58838ac7ff48abf576085b498720833f40fc86b9de833bad78e6761df4a51628686168259.webp"><div class="input"><a href="">Doals</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/f0219aa1de91c4cf4f3cca420e1b0ae52948be3590d6cbe8941b60c4a8a3c0641702303367895.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/f0219aa1de91c4cf4f3cca420e1b0ae52948be3590d6cbe8941b60c4a8a3c0641702303367895.webp"><div class="input"><a href="">Food</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/d86422b616e9026ddad629f495df8460954d314c63cf9f2e15e39ef5e453f7e11639051631028.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/d86422b616e9026ddad629f495df8460954d314c63cf9f2e15e39ef5e453f7e11639051631028.webp"><div class="input"><a href="">Business</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/1cb339cf4deb03f2d3cb1d72ef69e91008f0d3d954b36f0fd56faf40b93d2cc91635234393113.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/1cb339cf4deb03f2d3cb1d72ef69e91008f0d3d954b36f0fd56faf40b93d2cc91635234393113.webp"><div class="input"><a href="">Fitness</a></div></div>
+          <div class="item"><img src="https://images-wixmp-530a50041672c69d335ba4cf.wixmp.com/templates/image/40a82b651a30a099a775f9727e28f222918512917b49101bfbcb6373c67318a31591785334914.jpg/v1/fill/w_538%2Ch_303%2Cq_90%2Cusm_0.60_1.00_0.01/40a82b651a30a099a775f9727e28f222918512917b49101bfbcb6373c67318a31591785334914.webp"><div class="input"><a href="">Romodoling</a></div></div>
+        </div>
+      
+      </section>
+</body>
+</html>
